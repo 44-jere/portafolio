@@ -50,7 +50,6 @@ main section article {
   gap: 10px;
   display: flex;
   padding: 0 5px;
-  width: 100%;
 }
 .card {
   flex: 0 0 auto;
@@ -98,15 +97,6 @@ main section article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100%;
-}
-
-h2{
-  font-size: 3rem;
-}
-
-p{
-  font-size: 2rem;
 }
 
 #carniceria{
@@ -150,9 +140,37 @@ p{
   .hero{
     height: 60%;
   }
+  .centerImage{
+    width: 100%;
+    width: 100%;
+  }
+  section main article{
+    width: 100%;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  
+  p{
+    font-size: 2rem;
+  }
 }
 @media (width <= 400px) {
   .hero{
     height: 40%;
+  }
+  .centerImage{
+    width: 100%;
+    width: 100%;
+  }
+  section main article{
+    width: 100%;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  
+  p{
+    font-size: 2rem;
   }
 }
