@@ -1,0 +1,129 @@
+body {
+  background-color: #080719;
+  color: white;
+}
+
+headder {
+  display: flex;
+  min-height: 400px;
+}
+
+headder section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  /*   background-color:red; */
+  padding: 2px 0;
+}
+
+main section {
+  min-height: 400px;
+  margin-bottom: 10px;
+  /*   background-color:green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 5px;
+}
+
+.not-expanded {
+  align-items: center;
+  overflow-x: auto;
+  min-height: 300px;
+}
+
+.expanded {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+main section article {
+  /*   background-color:blue; */
+  gap: 10px;
+  display: flex;
+  padding: 0 5px;
+}
+.card {
+  flex: 0 0 auto;
+  height: 200px;
+  background-color: black;
+  width: 450px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card footer {
+  background-color: #5022a8;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  opacity: .7;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.boton{
+  cursor: pointer;
+  &:hover{
+    color: #5022a8;
+    text-decoration: underline;
+  }
+  &:active{
+    color: black;
+  }
+}
+
+.hero {
+  background-image: url("./Diseño\ sin\ título.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.centerImage{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#carniceria{
+  background-image: url("./imagenesProyecto/Carniceria.png");
+}
+#cssgrid{
+  background-image: url("./imagenesProyecto/CSSGrid.png");
+}
+#finance{
+  background-image: url("./imagenesProyecto/finance.png");
+}
+#learningZIndex{
+  background-image: url("./imagenesProyecto/LearningZindex.png");
+}
+#TallerMate{
+  background-image: url("./imagenesProyecto/TallerMate.png");
+}
+#TallerVideoJuegos{
+  background-image: url("./imagenesProyecto/TallerVideoJuegos.png");
+}
+#usandoResponsiveDesign{
+  background-image: url("./imagenesProyecto/usandoResponsiveDesign.png");
+}
+#Neonorph{
+  background-image: url("./imagenesProyecto/Neonorph.png");
+}
+#nintendoLayout{
+  background-image: url("./imagenesProyecto/nintendoLayout.png");
+}
+#LogIn1ConArboles{
+  background-image: url("./imagenesProyecto/LogIn1ConArboles.png");
+}
+#Login2Atardecer{
+  background-image: url("./imagenesProyecto/Login2Atardecer.png");
+}
