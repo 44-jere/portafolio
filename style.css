@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #080719;
   color: white;
@@ -5,7 +9,7 @@ body {
 
 headder {
   display: flex;
-  height: 40%;
+  height: 90%;
 }
 
 headder section {
@@ -46,6 +50,7 @@ main section article {
   gap: 10px;
   display: flex;
   padding: 0 5px;
+  width: 100%;
 }
 .card {
   flex: 0 0 auto;
@@ -86,12 +91,22 @@ main section article {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  background-position: right; 
 }
 
 .centerImage{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 2rem;
 }
 
 #carniceria{
@@ -129,4 +144,15 @@ main section article {
 }
 #eslPaginaWeb{
   background-image: url("./imagenesProyecto/eslPaginaWeb.png");
+}
+
+@media (width <= 790px) {
+  .hero{
+    height: 60%;
+  }
+}
+@media (width <= 400px) {
+  .hero{
+    height: 40%;
+  }
 }
